@@ -1,6 +1,7 @@
 package kr.hs.study;
 
 import kr.hs.study.beans.TestBean1;
+import kr.hs.study.beans.TestBean2;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
@@ -18,6 +19,14 @@ public class Main {
 
         TestBean1 obj4 = ctx.getBean("t4", TestBean1.class);
         System.out.println("data4 : "+obj4.getData4());
+
+        TestBean2 obj5 = ctx.getBean("t5", TestBean2.class);
+        System.out.println("data1 : "+obj5.getData1());
+
+        TestBean2 obj6 = ctx.getBean("t6", TestBean2.class);
+        System.out.println("data2 : "+obj6.getData2());
+
+
         ctx.close();
     }
 }

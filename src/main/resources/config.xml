@@ -23,7 +23,23 @@
         <property name="data4" value="spring10"/>
     </bean>
 
+    <!--똑같은 2가지 방법-->
+    <bean id="t5" class="kr.hs.study.beans.TestBean2">
+        <property name="data1">
+            <bean class="kr.hs.study.beans.DataBean"/>
+        </property>
+    </bean>
 
+    <bean id="t6" class="kr.hs.study.beans.TestBean2">
+        <property name="data2">
+            <bean class="kr.hs.study.beans.DataBean"/>
+        </property>
+    </bean>
+
+<!--    <bean id = "d1" class = "kr.hs.study.beans.DataBean"/>-->
+<!--    <bean id = "t5" class = "kr.hs.study.beans.TestBean2">-->
+<!--        <property name="data1" ref = "d1"/>-->
+<!--    </bean>-->
 
 
 </beans>
