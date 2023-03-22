@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046e6d68-2a36-4d37-9d17-be407da2f714" name="Changes" comment="Rombok의 데이터 Annotation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/DataBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/TestBean2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
-    </list>
+    <list default="true" id="046e6d68-2a36-4d37-9d17-be407da2f714" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +19,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8bce97ce-da7f-4d5a-be65-2980ee748125" />
+        <option name="url" value="https://github.com/chaeyoung1027/SetterDI.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,11 +92,19 @@
       <option name="project" value="LOCAL" />
       <updated>1679381763230</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1679382647445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679382647445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rombok의 데이터 Annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rombok의 데이터 Annotation" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
